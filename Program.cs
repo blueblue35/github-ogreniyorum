@@ -10,7 +10,7 @@ namespace github_ogreniyorum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("MERHABA");
+            Console.WriteLine("MERHABA GİTHUB");
         }
     }
 }
