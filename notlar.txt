@@ -1,3 +1,4 @@
 Bugün GitHub öğrenmeye başladım.
 İkinci commit ile değişiklik yapıyorum.
+Visual Studio üzerinden 3. commit denemesi.
 
