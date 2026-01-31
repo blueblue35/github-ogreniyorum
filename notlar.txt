@@ -1,1 +1,3 @@
 Bugün GitHub öğrenmeye başladım.
+İkinci commit ile değişiklik yapıyorum.
+
