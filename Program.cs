@@ -26,6 +26,8 @@ namespace github_ogreniyorum
             int negsonuc= hm.Cikar(27,15);
             Console.WriteLine("Toplam: " + sonuc);
             Console.WriteLine("Fark: " + negsonuc);
+            Console.WriteLine("GitHub uzerinden guncellendi");
+
 
 
 
