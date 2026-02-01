@@ -5,12 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace github_ogreniyorum
-{
+{    class HesapMakinesi
+    { public int Topla(int a, int b)
+        {
+            return a + b;
+        
+        }
+    
+    
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("MERHABA GİTHUB");
+            HesapMakinesi hm = new HesapMakinesi();
+            int sonuc = hm.Topla(12, 27);
+            Console.WriteLine(sonuc);
         }
     }
 }
