@@ -11,7 +11,10 @@ namespace github_ogreniyorum
             return a + b;
         
         }
-    
+    public int Cikar(int a, int b)
+    { return a-b;
+        
+    }
     
     }
     internal class Program
@@ -21,6 +24,8 @@ namespace github_ogreniyorum
             HesapMakinesi hm = new HesapMakinesi();
             int sonuc = hm.Topla(12, 27);
             Console.WriteLine(sonuc);
+            int negsonuc= hm.Cikar;
+            Console.Writeline(negsonuc);
         }
     }
 }
