@@ -22,10 +22,12 @@ namespace github_ogreniyorum
         static void Main(string[] args)
         {
             HesapMakinesi hm = new HesapMakinesi();
-            int sonuc = hm.Topla(12, 27);
-            Console.WriteLine(sonuc);
+            int sonuc = hm.Topla(12, 27);    
             int negsonuc= hm.Cikar(27,15);
-            Console.Writeline(negsonuc);
+            Console.WriteLine(sonuc);
+            Console.WriteLine(negsonuc);
+
+
         }
     }
 }
