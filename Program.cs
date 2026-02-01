@@ -24,8 +24,9 @@ namespace github_ogreniyorum
             HesapMakinesi hm = new HesapMakinesi();
             int sonuc = hm.Topla(12, 27);    
             int negsonuc= hm.Cikar(27,15);
-            Console.WriteLine(sonuc);
-            Console.WriteLine(negsonuc);
+            Console.WriteLine("Toplam: " + sonuc);
+            Console.WriteLine("Fark: " + negsonuc);
+
 
 
         }
