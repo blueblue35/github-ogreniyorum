@@ -8,7 +8,7 @@ namespace github_ogreniyorum
 {    class HesapMakinesi
     { public int Topla(int a, int b)
         {
-            return a + b;
+            return a + b+2;
         
         }
     public int Cikar(int a, int b)
